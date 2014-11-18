@@ -1,0 +1,35 @@
+/*================================================
+ Utility (u)
+==================================================
+ Tiny classes to help out when needed.
+==================================================
+ Abbreviations used:
+ s = small
+ m = medium
+ l = large
+================================================*/
+/*== Font Size ==*/
+.u-font-s { font-size: $font-s; }
+.u-font-m { font-size: $font-m; }
+.u-font-l { font-size: $font-l; }
+
+/*== Headings ==*/
+.u-heading-s { font-size: $font-s; font-weight: bold; }
+.u-heading-m { font-size: $font-m; font-weight: bold; }
+.u-heading-l { font-size: $font-l; font-weight: bold; }
+
+/*== Text ==*/
+.u-font-s { font-size: $font-s; font-weight: normal; }
+.u-font-m { font-size: $font-m; font-weight: normal; }
+.u-font-l { font-size: $font-l; font-weight: normal; }
+
+/*== Offscreen (hidden text for the sight impaired) ==*/
+.u-offscreen {
+	position: absolute;
+	left: -9999px;
+}
+
+/*== Text Align Center ==*/
+.u-text-center {
+	text-align: center;
+}

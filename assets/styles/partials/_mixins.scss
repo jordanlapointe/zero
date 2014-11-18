@@ -1,0 +1,17 @@
+/*================================================
+ Mixins
+==================================================
+ SASS helpers used throughout the project.
+================================================*/
+/*== Media Queries ==*/
+@mixin bp($point) {
+	@if $point == m {
+		@media (max-width: 32em) { @content; }
+	}
+	@if $point == min-m {
+		@media (min-width: 32.0625em) { @content; }
+	}
+	@if $point == s {
+		@media (max-width: 25em) { @content; }
+	}
+}

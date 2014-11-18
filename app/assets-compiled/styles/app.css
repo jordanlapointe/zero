@@ -1,0 +1,119 @@
+/*================================================
+ Main.scss
+==================================================
+ This file pulls in all other partials for
+ organization and concatination.
+================================================*/
+/*== Shared ==*/
+/*================================================
+ Variables
+==================================================
+ Cached values to be used throughout the project.
+================================================*/
+/*== Font Sizes ==*/
+/*== Vertical Spacing ==*/
+/*== Colors ==*/
+/*================================================
+ Mixins
+==================================================
+ SASS helpers used throughout the project.
+================================================*/
+/*== Media Queries ==*/
+/*================================================
+ Reset
+==================================================
+ Normalizes default browser styling.
+================================================*/
+html, body {
+  margin: 0; }
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; }
+
+table, td, tr, th {
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-spacing: 0; }
+
+table {
+  width: 100%; }
+
+th {
+  text-align: left; }
+
+td, th, p, span {
+  line-height: 1.5; }
+
+p {
+  margin: 0; }
+
+h1, h2, h3 {
+  margin: 0;
+  line-height: 1.25; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/*== Hide elements as marked by Angular ==*/
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important; }
+
+/*================================================
+ Utility (u)
+==================================================
+ Tiny classes to help out when needed.
+==================================================
+ Abbreviations used:
+ s = small
+ m = medium
+ l = large
+================================================*/
+/*== Font Size ==*/
+.u-font-s {
+  font-size: 12px; }
+
+.u-font-m {
+  font-size: 16px; }
+
+.u-font-l {
+  font-size: 20px; }
+
+/*== Headings ==*/
+.u-heading-s {
+  font-size: 12px;
+  font-weight: bold; }
+
+.u-heading-m {
+  font-size: 16px;
+  font-weight: bold; }
+
+.u-heading-l {
+  font-size: 20px;
+  font-weight: bold; }
+
+/*== Text ==*/
+.u-font-s {
+  font-size: 12px;
+  font-weight: normal; }
+
+.u-font-m {
+  font-size: 16px;
+  font-weight: normal; }
+
+.u-font-l {
+  font-size: 20px;
+  font-weight: normal; }
+
+/*== Offscreen (hidden text for the sight impaired) ==*/
+.u-offscreen {
+  position: absolute;
+  left: -9999px; }
+
+/*== Text Align Center ==*/
+.u-text-center {
+  text-align: center; }
+
+/*== Modules ==*/
